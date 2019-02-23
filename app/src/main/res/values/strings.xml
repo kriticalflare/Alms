@@ -2,4 +2,8 @@
     <string name="app_name">Alms</string>
     <string name="donate">Donate</string>
     <string name="description"> Alms - making donating easy and accessible </string>
+    <string name="info">About us</string>
+    <string name="partners">Meet our partners</string>
+    <string name="about">With this app, we set out on a mission to prevent people from just throwing away usable items but instead donating it to those in need. This can range from NGOs to local orphanages. </string>
+    <string name="objective">Aim:</string>
 </resources>
