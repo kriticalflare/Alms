@@ -1,24 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:weightSum="100">
 
     <ImageView
+        android:id="@+id/image"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="70"
-        android:id="@+id/image"
         android:scaleType="centerCrop"
-        android:src="@mipmap/ic_launcher"/>
+        android:src="@mipmap/ic_launcher" />
 
     <TextView
+        android:id="@+id/image_description"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="16dp"
+        android:layout_weight="6"
         android:text="DummyBoi"
-        android:id="@+id/image_description"
-        android:textColor="#000"/>
+        android:textColor="#000"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/image_description1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="16dp"
+        android:text="Input the no of donations"
+        android:textColor="#000"
+        android:textSize="32sp"
+        android:layout_weight="5"
+        />
+
+    <EditText
+        android:id="@+id/amount_enter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="16dp"
+        android:hint="Amount"
+        android:inputType="number"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/image_description2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="16dp"
+        android:text="Current Value: 0"
+        android:textColor="#000"
+        android:textSize="32sp"
+        />
+
+
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="54dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/button_bg_rounded_cornersblack"
+        android:onClick="donateOut"
+        android:text="Donate"
+        android:textColor="@android:color/white"
+        android:textSize="40sp" />
 
 </LinearLayout>

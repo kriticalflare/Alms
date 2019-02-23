@@ -4,6 +4,8 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.view.View;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -43,5 +45,23 @@ public class GalleryActivity extends AppCompatActivity {
                 .load(imageUrl)
                 .into(image);
     }
+
+    private int EnterDonate()
+    {
+        EditText x = (EditText) findViewById(R.id.amount_enter);
+        int n = Integer.parseInt(x.getText().toString());
+        return n;
+    }
+    private void displayMessage(String message) {
+        TextView priceTextView = (TextView) findViewById(R.id.image_description2);
+        priceTextView.setText(message);
     
 }
+
+    public void donateOut(View view) {
+
+        int donated=EnterDonate();
+        String priceMessage="you donated:" + donated +"\n Approx market value donated:"+donated*5; // Placeholder for future implementation valuing the goods in realtime
+        displayMessage(priceMessage);
+    }
+    }
