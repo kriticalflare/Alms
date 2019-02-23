@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">Alms</string>
     <string name="donate">Donate</string>
-
+    <string name="description"> Alms - making donating easy and accessible </string>
 </resources>
