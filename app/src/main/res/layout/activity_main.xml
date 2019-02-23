@@ -2,6 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#bb86fc"
     >
 
     <ImageView
@@ -11,7 +12,8 @@
         android:src="@drawable/startlogo"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:scaleType="fitStart"/>
+        android:scaleType="fitStart"
+        />
 
     <TextView
         android:id="@+id/desc_text"
@@ -19,8 +21,10 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="362dp"
-        android:text="@string/description" />
+        android:layout_marginTop="358dp"
+        android:textSize="16dp"
+        android:text="@string/description"
+        />
     <Button
         android:id="@+id/donate_button"
         android:layout_width="wrap_content"
@@ -28,10 +32,12 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentBottom="true"
         android:layout_marginLeft="56dp"
-        android:layout_marginBottom="96dp"
+        android:layout_marginBottom="120dp"
         android:layout_marginTop="224dp"
         android:text="@string/donate"
-        android:layout_below="@+id/desc_text"/>
+        android:layout_below="@+id/desc_text"
+        android:background="@drawable/button_bg_rounded_corners"
+        />
     <Button
         android:id="@+id/info_button"
         android:layout_width="wrap_content"
@@ -39,10 +45,11 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
         android:layout_marginRight="56dp"
-        android:layout_marginBottom="96dp"
+        android:layout_marginBottom="120dp"
         android:layout_marginTop="224dp"
         android:text="@string/info"
         android:layout_below="@+id/desc_text"
+        android:background="@drawable/button_bg_rounded_corners"
         />
      <Button
          android:id="@+id/partner_button"
@@ -50,10 +57,12 @@
          android:layout_height="wrap_content"
          android:layout_alignParentRight="true"
          android:layout_alignParentBottom="true"
-         android:layout_marginRight="152dp"
-         android:layout_marginBottom="64dp"
-         android:layout_marginTop="256dp"
+         android:layout_marginRight="158dp"
+         android:layout_marginBottom="80dp"
+         android:layout_marginTop="254dp"
+         android:padding="8dp"
          android:text="@string/partners"
          android:layout_below="@+id/desc_text"
+         android:background="@drawable/button_bg_rounded_corners"
          />
 </RelativeLayout>
