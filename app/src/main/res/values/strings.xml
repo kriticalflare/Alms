@@ -8,5 +8,8 @@
     <string name="objective">Aim:</string>
     <string name="made">Made by:</string>
     <string name="bio">Team Solid Frost</string>
+    <string name="partnerhead">Our Partners :</string>
+    <string name="partnertext">A long list of the NGO and CSR cells partnered with us ;)</string>
+
 
 </resources>

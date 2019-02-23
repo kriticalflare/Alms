@@ -11,13 +11,13 @@ android:paddingRight="16dp">
         android:layout_height="wrap_content"
         android:text="@string/objective"
         android:layout_margin="16dp"
-        android:textSize="32dp"/>
+        android:textSize="32sp"/>
     <TextView
         android:id="@+id/aim"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/about"
-        android:textSize="16dp"
+        android:textSize="16sp"
         android:layout_below="@+id/aim_head"/>
     <TextView
         android:id="@+id/made_by"
@@ -25,13 +25,13 @@ android:paddingRight="16dp">
         android:layout_height="wrap_content"
         android:text="@string/made"
         android:layout_margin="16dp"
-        android:textSize="32dp"
+        android:textSize="32sp"
         android:layout_below="@+id/aim"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/bio"
-        android:textSize="24dp"
+        android:textSize="24sp"
         android:layout_below="@+id/made_by"/>
 
 
