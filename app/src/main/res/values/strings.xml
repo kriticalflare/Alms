@@ -11,5 +11,10 @@
     <string name="partnerhead">Our Partners :</string>
     <string name="partnertext">A long list of the NGO and CSR cells partnered with us ;)</string>
 
-
+    <array name="NGOs">
+        <item>HyperLocal</item>
+        <item>local</item>
+        <item>District</item>
+        <item>State</item>
+    </array>
 </resources>

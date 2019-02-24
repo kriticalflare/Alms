@@ -24,6 +24,13 @@
         android:textColor="#000"
         android:textSize="40sp" />
 
+    <Spinner
+        android:id="@+id/spinnerNGO"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:entries="@array/NGOs" />
+
     <TextView
         android:id="@+id/image_description1"
         android:layout_width="wrap_content"
@@ -32,19 +39,26 @@
         android:layout_marginTop="16dp"
         android:text="Input the no of donations"
         android:textColor="#000"
-        android:textSize="32sp"
-        android:layout_weight="5"
-        />
+        android:textSize="32sp" />
 
     <EditText
         android:id="@+id/amount_enter"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="8dp"
         android:hint="Amount"
         android:inputType="number"
         android:textSize="20sp" />
+    <EditText
+        android:id="@+id/ngo_enter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="8dp"
+        android:hint="Name of NGO"
+        android:textSize="20sp"
+        />
 
     <TextView
         android:id="@+id/image_description2"
@@ -54,8 +68,7 @@
         android:layout_marginTop="16dp"
         android:text="Current Value: 0"
         android:textColor="#000"
-        android:textSize="32sp"
-        />
+        android:textSize="32sp" />
 
 
     <Button
