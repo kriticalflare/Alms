@@ -67,7 +67,7 @@ public class GalleryActivity extends AppCompatActivity {
 
             databaseNgo.child(id).setValue(ngo);
 
-            Toast.makeText(this, "NGO selected", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "NGO selection for Donation", Toast.LENGTH_LONG).show();
         }else{
             Toast.makeText(this, "You should enter a name", Toast.LENGTH_LONG).show();
         }

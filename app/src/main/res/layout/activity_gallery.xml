@@ -62,11 +62,11 @@
 
     <TextView
         android:id="@+id/image_description2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="16dp"
-        android:text="Current Value: 0"
+        android:text=" "
         android:textColor="#000"
         android:textSize="32sp" />
 
